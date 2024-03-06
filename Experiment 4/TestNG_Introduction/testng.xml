@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" name="D:/GitHub/TA Lab/Experiment 4/TestNG_Introduction">
+        <classes>
+            <class name="TestClassOne">
+                <methods>
+<!--                    To exclude only specified test cases-->
+                    <exclude name="ThirdTC"/>
+<!--                    To execute only specified test cases-->
+<!--                    <include name="ThirdTC"/>-->
+                </methods>
+            </class>
+<!--            <class name="TestClassTwo"/>-->
+        </classes>
+    </test>
+</suite>
