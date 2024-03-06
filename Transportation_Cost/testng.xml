@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" name="D:/GitHub/TA Lab/Class Practice/">
+        <classes>
+            <class name="TestClasses"/>
+            <class name="TestClasses">
+                <methods>
+                    <include name="TC1"/>
+                    <include name="TC2"/>
+                </methods>
+            </class>
+            <class name="TestClasses2">
+                <methods>
+                    <include name="TC21"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
