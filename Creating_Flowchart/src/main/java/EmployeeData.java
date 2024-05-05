@@ -1,3 +1,4 @@
+
 public class EmployeeData {
     public double calculateEmployeeData(double sal_amt) {
         double renumeration = 0, comission = 0;

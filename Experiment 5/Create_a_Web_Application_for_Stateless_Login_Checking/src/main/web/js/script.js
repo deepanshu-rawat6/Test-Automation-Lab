@@ -16,7 +16,8 @@ function checkLogin() {
     const loginMessage = document.getElementById('loginMessage');
 
     if (userExists(usernameInput)) {
-        const user = users.find(user => user.username === usernameInput);
+        const user =
+            users.find(user => user.username === usernameInput);
 
         if (user.password === passwordInput) {
             loginMessage.innerText = 'Login successful';

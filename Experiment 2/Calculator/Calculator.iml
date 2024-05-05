@@ -20,5 +20,18 @@
         <jarDirectory url="file://$MODULE_DIR$/../../SeleniumJars" recursive="false" type="SOURCES" />
       </library>
     </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../SeleniumJars" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../SeleniumJars" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/../../../SeleniumJars" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../../SeleniumJars" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
   </component>
 </module>

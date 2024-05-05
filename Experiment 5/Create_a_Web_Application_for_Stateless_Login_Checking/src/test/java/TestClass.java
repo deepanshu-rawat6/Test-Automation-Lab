@@ -10,9 +10,12 @@ public class TestClass {
 
     @BeforeMethod
     public void setUp() {
-        System.getProperty("webdriver.gecko.driver", "D:\\GitHub\\TA Lab\\geckodriver-v0.34.0-win-aarch64\\geckodriver.exe");
+        System.getProperty("webdriver.gecko.driver",
+                "D:\\GitHub\\TA Lab\\geckodriver-v0.34.0-win-aarch64\\geckodriver.exe");
         driver = new FirefoxDriver();
-        driver.get("D:\\GitHub\\TA Lab\\TA-Lab\\Experiment 5\\Create_a_Web_Application_for_Stateless_Login_Checking\\src\\main\\web\\index.html");
+        driver.get(
+                "D:\\GitHub\\TA Lab\\TA-Lab\\Experiment 5\\" +
+                        "Create_a_Web_Application_for_Stateless_Login_Checking\\src\\main\\web\\index.html");
     }
 
     @Test
